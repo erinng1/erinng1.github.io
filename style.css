@@ -1,0 +1,27 @@
+h1{
+	text-align: center;
+	color: silver;
+}
+img{
+	border: dotted;
+	color: black;
+	padding: 20px;
+}
+li {
+	color: red;
+
+}
+body {
+	font-family: courier;
+}
+#h3{
+	text-align: center;
+	color: silver;
+}
+body{
+	background-color: #00008E;
+}
+p{
+	color: silver;
+	text-align: center;
+}

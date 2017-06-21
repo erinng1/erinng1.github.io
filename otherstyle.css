@@ -1,0 +1,28 @@
+	/*.styledHeader {
+
+	color: green;
+	text-decoration: italic;
+
+	selector{
+		property: value;
+	}	*/
+
+h1 {
+	text-align: center;
+
+	height: 50px;
+	width: 100px;
+	padding: 20px;
+	margin: 40px;
+
+	border: 3px dotted blue;
+	border-left: 3px dotted green;
+	border-right: 3px dotted green;
+
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: italic;
+}
+div{
+	color: red;
+}

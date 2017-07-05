@@ -1,0 +1,9 @@
+h1 {
+	color: green;
+	text-align: center;
+}
+p {
+	border-radius: 20px;
+	border-style: dotted;
+	text-align: center;
+}

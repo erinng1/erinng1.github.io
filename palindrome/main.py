@@ -3,6 +3,7 @@ import jinja2
 import os
 import random
 
+
 def is_palindrome(word):
 	first_half = None
 	second_half = None
@@ -51,8 +52,8 @@ class FCHandler(webapp2.RequestHandler):
 			
 class FancyAddHandler(webapp2.RequestHandler):
 	def get(self): 
-		x = random.randint(0,100)
-		y = random.randint(0,100)
+		x = random.randint(0,1000)
+		y = random.randint(0,1000)
 		answer = x + y
 		template = jinja_environment.get_template("temp.html")
 		self.response.write(template.render(

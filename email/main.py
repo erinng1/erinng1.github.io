@@ -60,12 +60,16 @@ class MadlibHandler(webapp2.RequestHandler):
 		charName = self.request.get('charName')
 		adj = self.request.get('adj')
 		adj2 = self.request.get('adj2')
+		cartoon = self.request.get('cartoon')
+		game = self.request.get('game')
 
 		template = jinja_environment.get_template('madlib_out.html')
 		self.response.write(template.render({
 		'adj' : adj,
 		'adj2' : adj2,
 		'character' : charName,
+		'cartoon' : cartoon,
+		'game' : game,
 		}))
 
 app = webapp2.WSGIApplication([

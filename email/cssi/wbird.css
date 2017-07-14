@@ -1,0 +1,32 @@
+#redBox{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+
+}
+#greenBox{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+#blueBox{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+#yellowBox{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}
+h1{
+	text-align: center;
+}
+#allBoxes{
+	text-align: center;
+}
+#numBox{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+}

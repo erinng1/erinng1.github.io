@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <h1>Student List</h1>
+    {% for s in students %}
+    	<a href = "/onestudent?id={{s.key.id()}}"></a>
+      {{s.key.id()}} {{s['name']}} {{s['LName']}} {{s['school']}} {{s['grade']}}
+      <br>
+    {% endfor %}
+  </body>
+</html>

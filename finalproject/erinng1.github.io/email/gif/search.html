@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Slug</th>
+			<th>Rating</th>
+			<th>Picture</th>
+		</tr>
+		{% for data in contents['data'] %}
+		<tr>
+			<td>{{data['id']}}</td>
+			<td>{{data['slug']}}</td>
+			<td>{{data['rating']}}</td>
+			<td>
+				<img src="{{data['images']['downsized']['url']}}">
+			</td>	
+		</tr>
+		{% endfor %}
+	</table>
+	</body>
+</html>

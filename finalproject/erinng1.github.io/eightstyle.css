@@ -1,0 +1,19 @@
+html {
+	background-color: grey;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	position: relative;
+}
+
+.quest{
+	border: 5px;
+	border-style: dotted;
+	border-color: white;
+}
+
+button {
+	position: relative;
+}

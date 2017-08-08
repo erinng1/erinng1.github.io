@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+	{% for x in data %}
+		{{x['name']}} <br> {{x['uni']}} <br> {{x['study']}} <br> {{x['hobby']}} <br>
+	{% endfor %}
+	<br>
+	<a href="/oneu">View Most Recent Student</a>
+</body>
+</html>

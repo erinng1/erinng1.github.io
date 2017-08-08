@@ -1,0 +1,9 @@
+#poster {
+	display: block;
+	width: 200px;
+
+	border: 10px double transparent;
+}
+#poster.border{
+	border: 10px double red;
+}
